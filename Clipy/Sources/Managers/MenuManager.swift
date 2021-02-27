@@ -168,7 +168,7 @@ private extension MenuManager {
             .drive(onNext: { [weak self] in
                 self?.createClipMenu()
             })
-        drivedObservable.disposed(by: disposeBag)
+            .disposed(by: disposeBag)
     }
 }
 
