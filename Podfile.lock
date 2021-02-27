@@ -1,6 +1,6 @@
 PODS:
   - AEXML (4.6.0)
-  - BartyCrouch (3.13.0)
+  - BartyCrouch (4.5.0)
   - KeyHolder (4.0.0):
     - Magnet (~> 3.2)
   - LetsMove (1.25)
@@ -16,12 +16,12 @@ PODS:
   - PINCache/Core (3.0.3):
     - PINOperation (~> 1.2.1)
   - PINOperation (1.2.1)
-  - Quick (3.0.0)
-  - Realm (5.5.0):
-    - Realm/Headers (= 5.5.0)
-  - Realm/Headers (5.5.0)
-  - RealmSwift (5.5.0):
-    - Realm (= 5.5.0)
+  - Quick (3.1.2)
+  - Realm (10.7.0):
+    - Realm/Headers (= 10.7.0)
+  - Realm/Headers (10.7.0)
+  - RealmSwift (10.7.0):
+    - Realm (= 10.7.0)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -34,10 +34,10 @@ PODS:
   - RxSwift (5.1.1)
   - Sauce (2.1.0)
   - Screeen (2.0.1)
-  - Sparkle (1.23.0)
+  - Sparkle (1.26.0)
   - SwiftGen (6.4.0)
   - SwiftHEXColors (1.4.1)
-  - SwiftLint (0.40.3)
+  - SwiftLint (0.42.0)
 
 DEPENDENCIES:
   - AEXML
@@ -94,7 +94,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AEXML: 2fbb73d8724797ed2cde888731e176fa4d44dd83
-  BartyCrouch: 69e5e6ec67e77951dc1c22aa48abbf05d175b81c
+  BartyCrouch: 1c4b60efab0850091e5224cf69afe856f4fe96cd
   KeyHolder: 457d8dde330a17452672756ae0e3b9c2e180a7e2
   LetsMove: 7b9fe44737707d984fbd3f47af46609a9a07b461
   LoginServiceKit: 3c86ce2f2bcd1e373326839d6d863d8a6a5915b4
@@ -102,19 +102,19 @@ SPEC CHECKSUMS:
   Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
   PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
-  Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
-  Realm: fb399d76f44042e5cdfc630f33828fdb4d077345
-  RealmSwift: 3b7e62356207ef16d34de4e55d475163bd2062bb
+  Quick: 60f0ea3b8e0cfc0df3259a5c06a238ad8b3c46e0
+  Realm: a03c41a3afbda6c197ba4dfba5428b8b54cc2df4
+  RealmSwift: 5e7abc842276d7fabd386e67afbf3efde54eb1c6
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxScreeen: e0806b8a4b747cde7100be4e09b6e133a6017cfd
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   Sauce: a4075a04b6041e7a0c992a952cc79f7a0ebdb8e3
   Screeen: e5c570d3df139b8d5d0e1ffd41094204787d9f1a
-  Sparkle: 55b1a87ba69d56913375a281546b7c82dec95bb0
+  Sparkle: d56d028f4b0c123577825f5d1004f6140d77f90e
   SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
   SwiftHEXColors: 1cb6e5d55c52749aa33db8f088ac55eb71ca4c7f
-  SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
 
 PODFILE CHECKSUM: 57ecd94a3cf36d020cb8926562e41104c4fea206
 
