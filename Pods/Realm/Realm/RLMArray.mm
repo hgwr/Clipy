@@ -365,6 +365,7 @@ static bool canAggregate(RLMPropertyType type, bool allowDate) {
         case RLMPropertyTypeInt:
         case RLMPropertyTypeFloat:
         case RLMPropertyTypeDouble:
+        case RLMPropertyTypeDecimal128:
             return true;
         case RLMPropertyTypeDate:
             return allowDate;
@@ -560,6 +561,10 @@ static bool canAggregate(RLMPropertyType type, bool allowDate) {
 }
 
 - (instancetype)freeze {
+    @throw RLMException(@"This method may only be called on RLMArray instances retrieved from an RLMRealm");
+}
+
+- (instancetype)thaw {
     @throw RLMException(@"This method may only be called on RLMArray instances retrieved from an RLMRealm");
 }
 
